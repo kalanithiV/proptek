@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #061926cc;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.cardsContainer {
+  padding: 50px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(418px, 1fr));
+  gap: 30px;
+}

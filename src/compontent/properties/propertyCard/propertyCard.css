@@ -1,0 +1,80 @@
+.property_card {
+  box-shadow: 0px 7px 10px 2px #0000000d;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+.property_card .text_area {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  font-size: 15px;
+  font-weight: 400;
+  color: #061926;
+}
+
+.property_card .text_area .header {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.property_card .text_area .price {
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  color: #049548;
+}
+
+.property_card .text_area .subheading {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.property_card .text_area .tags_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.property_card .tags_area .benefits p {
+  background-color: #0171bb;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 5px 20px;
+  border-radius: 20px;
+}
+
+.property_card .text_area .location {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.property_card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Number of lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.property_card .imgs {
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  position: relative;
+}
+.property_card .imgs .top_tags {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.property_card .tags {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
